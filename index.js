@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/public'));
 io.on('connection', function(socket){
   console.log('a user connected');
   socket.on('change', function(msg){
-    console.log('message: ' + msg);
+    io.emit('change', msg);
   });
 });
 
