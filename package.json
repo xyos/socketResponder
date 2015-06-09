@@ -1,0 +1,9 @@
+{
+  "name": "raffles",
+  "version": "0.0.1",
+  "description": "raffles socket app",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.3.5"
+  }
+}
